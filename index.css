@@ -1,0 +1,35 @@
+h1, img{
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+.width_organize{
+    width: -webkit-fill-available;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+footer{
+    background-color: blue;
+    text-align: center;
+    font-size: 50%;
+    position: absolute;
+    margin-top: 70%;
+    width: 100%;
+}
+#label_username{
+    margin-left: 0px;
+}
+.form_field{
+    margin-left: 0px;
+}
+#login_field {
+    text-align: center;
+}
+.bottom_buttons{
+    text-align: left;
+}
