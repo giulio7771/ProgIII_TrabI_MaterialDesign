@@ -1,10 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="feed.css">
+    <title>Feed</title>
 </head>
-<body>
 
+<body>
+    <header>
+
+        <div id="search">
+            <input type="text" placeholder="Procurando algo?" />
+            <img id="lupa" src="imgs/lupa.jpg" width="20px;">
+        </div>
+        <h1>Associoção Atlética das Licenciaturas</h1>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">Home</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Feed</a>
+                        </li>
+                        <li>
+                            <a href="#">Noticiário</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Parcerias</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">UFSC</a>
+                        </li>
+                        <li>
+                            <a href="#">DCE</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Eventos</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Próximos</a>
+                        </li>
+                        <li>
+                            <a href="#">Histórico</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Calendário</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Esportivo</a>
+                        </li>
+                        <li>
+                            <a href="#">Recreativo</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Cadastro</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Atleta</a>
+                        </li>
+                        <li>
+                            <a href="#">Simpatizante</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div style="border: 2px solid black; border-radius: 15px;">
+            <img src="imgs/atletica_logo.png" alt="logo atlética"
+                style="width : 7%; padding:1%; margin: 0%; border: 0px;" />
+        </div>
+    </header>
+    <section>
+        <header>
+            <h3 style="font-size: 15pt; margin-left: 15%; color:blue">Home > <span style="color:red">Feed</span></h3>
+            <h2 style="text-align: center; font-size: 23pt;">Feed</h2>
+        </header>
+        <article>
+            <br>
+            <div class="card">
+                <img src="imgs/trofeu.jpg" alt="trofeu" style="width: 100%;" />
+                <h3 class="card_title">Competições</h3>
+                <h4 class="card_subtitle">Conquistas e títulos</h4>
+                <button class="card_button">Histórico</button>
+                <button class="card_button">Em andamento</button>
+            </div>
+            <br>
+            <div class="card">
+                <h3 class="card_title">Expectativas</h3>
+                <h4 class="card_subtitle">Especulações acerca do próximo ano</h4>
+                <p style="padding: 3%;">
+                    Estamos otimistas com o que nos aguarda
+                    para o próximo ano, já que os resultados
+                    desta temporada foram satisfatórios, apesar
+                    de não pudermos contar com nosso principal
+                    jogador, e capitão da equipe Giulio Giovanella.
+                    O mesmo acaba de se recuperar das lesões
+                    que o afastaram e já voltou aos treinos com a
+                    equipe.
+                </p>
+                <button class="card_button">Saiba mais</button>
+                <button class="card_button">Omitir </button>
+            </div>
+            <br>
+            <div class="card">
+                <h3 class="card_title">Reforços</h3>
+                <h4 class="card_subtitle" style="margin-bottom: 2%;">Recém chegados atletas</h4>
+                <table style="margin-left: 6%; padding: 2%; margin-bottom: 3%;">
+                    <tr>
+                        <td>
+                            <img src="imgs/j1.png" alt="Jogador" />
+                        </td>
+                        <td>
+                            <img src="imgs/j2.jpg" alt="Jogador" />
+                        </td>
+                        <td>
+                            <img src="imgs/j3.jpg" alt="Jogador" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="imgs/j4.jpg" alt="Jogador" />
+                        </td>
+                        <td>
+                            <img src="imgs/j5.jpeg" alt="Jogador" />
+                        </td>
+                        <td>
+                            <img src="imgs/j6.jpeg" alt="Jogador" />
+                        </td>
+                    </tr>
+                </table>
+                <button class="card_button">Histórico</button>
+                <button class="card_button">Expeculações</button>
+            </div>
+        </article>
+    </section>
+
+    <style>
+        table img{
+            width: 90px;
+            height: 90px;
+        }
+        footer {
+            background-color: blue;
+            text-align: center;
+            font-size: 50%;
+            position: absolute;
+            margin-top: 70%;
+            width: 100%;
+        }
+
+        h1 {
+            position: absolute;
+            margin-top: 1%;
+            padding: 0%;
+            border: 0px;
+            text-align: center;
+            width: 100%;
+        }
+
+        #search {
+            width: 20%;
+            position: absolute;
+            margin-left: 80%;
+            margin-top: 1%;
+            float: right;
+        }
+    </style>
+    <footer style="color: grey">
+        <h2>@2019 Copyright: Giulio Giovanella</h2>
+    </footer>
 </body>
+
 </html>
