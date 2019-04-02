@@ -11,7 +11,7 @@
     <header>
 
         <div id="search">
-            <input type="text" placeholder="Procurando algo?" />
+            <input type="text" placeholder="Procurando algo?"/>
             <img id="lupa" src="imgs/lupa.jpg" width="20px;">
         </div>
         <h1>Associoção Atlética das Licenciaturas</h1>
@@ -141,43 +141,45 @@
                 <button class="card_button">Histórico</button>
                 <button class="card_button">Expeculações</button>
             </div>
+            <br>
+            <div class="card">
+                <h3 class="card_title">Faça parte da atlética!</h3>
+                <h4 class="card_subtitle">Junte-se a equipe com mais títulos
+                    acumulados do esporte universitário</h4>
+                <form>
+                    <div id="field_nome">
+                        <label for="nome"><span>*</span>Nome</label><br>
+                        <input id="nome" type="text" placeholder="Luciana de Araújo"/>
+                    </div>
+
+                    <div id="field_idade_sexo">
+                        <label><span>*</span>Idade</label>
+                        <label><span>*</span>Sexo</label><br>
+                        <input id="idade" type="number" placeholder="18"/>
+                        <input id="sexo" type="" placeholder="Feminino"/><br>
+                    </div>
+                    <div id="field_modalidade">
+                        <label><span>*</span>Modalidade</label><br>
+                        <input id="modalidade" type="text" placeholder="Futebol"/>
+                    </div>
+                    <div id="field_posicao">
+                        <label>Posição</label><br>
+                        <input id="posicao" type="text" placeholder="Meio-campo"/>
+                    </div>
+                </form>
+                <div id="field_button">
+                    <button class="card_button">Salvar</button>
+                    <button class="card_button"  id="limpar">Limpar</button>
+                </div>
+                </div>
+            <br>
         </article>
     </section>
 
-    <style>
-        table img{
-            width: 90px;
-            height: 90px;
-        }
-        footer {
-            background-color: blue;
-            text-align: center;
-            font-size: 50%;
-            position: absolute;
-            margin-top: 70%;
-            width: 100%;
-        }
-
-        h1 {
-            position: absolute;
-            margin-top: 1%;
-            padding: 0%;
-            border: 0px;
-            text-align: center;
-            width: 100%;
-        }
-
-        #search {
-            width: 20%;
-            position: absolute;
-            margin-left: 80%;
-            margin-top: 1%;
-            float: right;
-        }
-    </style>
     <footer style="color: grey">
         <h2>@2019 Copyright: Giulio Giovanella</h2>
     </footer>
+    <script src="feed.js"></script>
 </body>
 
 </html>
